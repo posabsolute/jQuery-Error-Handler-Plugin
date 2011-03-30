@@ -42,4 +42,5 @@ The plugin works on
 Firefox 3.6+
 Safari latest
 Chrome Latest
+IE7+
 
