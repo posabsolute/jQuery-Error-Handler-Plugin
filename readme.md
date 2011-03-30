@@ -9,9 +9,8 @@ A php mail example is given with this plugin, but it could also be easily logged
 
 Load the plugin just after the jQuery library
 
-    $(document).ready(function() {
       $(document).jsErrorHandler();
-    });
+
 
 
 ## Options
@@ -21,12 +20,10 @@ You can define some options.
 By default the plugin automatically fetch the domain and add it to the email subject, but you can overwrite it.
 You can also define a from, I would highly recommend that you change the from setting in the plugin file (jquery.onerror.js)  if your going to use this plugin on multiple websites.
 
-   $(document).ready(function() {
      $(document).jsErrorHandler({
         from: "support@youremail.com",
 		website: document.domain
      });
-   });
 
 
 ## The Email
