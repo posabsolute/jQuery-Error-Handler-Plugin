@@ -16,7 +16,6 @@
 			url:"jserrorhandler.php",
 			data:"message="+msg+"&url="+url+"&line="+line+'&from='+settings.from+"&website="+settings.website,
 			success: function(test){
-				console.log(test);
 				if(window.console) console.log("Report sent about the javascript error")
 			}
 		})
