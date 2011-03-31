@@ -39,8 +39,8 @@ Line: 21
 ## Limitation
 
 The plugin works on 
-Firefox 3.6+
-Safari latest
-Chrome Latest
+Firefox 3.6+,
+Chrome Latest,
 IE7+
 
+It does not work on Safari and Opera, but it will not break your application.
