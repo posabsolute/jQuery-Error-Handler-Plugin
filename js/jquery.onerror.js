@@ -14,7 +14,7 @@
 			type:"GET",
 			cache:false,
 			url:"jserrorhandler.php",
-			data: $.param({'message':msg, 'url': url, 'line': line, 'from':settings.from, 'website': settings.website}),
+			data: $.param({'message':msg, 'url': url, userAgent: navigator.userAgent, 'line': line, 'from':settings.from, 'website': settings.website}),
 			success: function(test){
 				if(window.console) console.log("Report sent about the javascript error")
 			}
