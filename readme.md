@@ -33,8 +33,12 @@ The email received will look like this:
 A javascript error has been detected on www.position-absolute.com
 
 Message: variable is not defined
+
 Url: http://www.position-absolute.com/creation/onerror/
+
 Line: 21
+
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0) Gecko/20100101 Firefox/4.0
 
 ## Limitation
 
