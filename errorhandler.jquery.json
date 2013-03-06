@@ -1,0 +1,26 @@
+{
+    "name": "errorhandler",
+    "title": "Javascript error capturing",
+    "description": "This jQuery plugin send an email when a javascript error is triggered. ",
+    "keywords": [
+        "error",
+        "report",
+        "capture"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Cedric Dugas",
+        "url": "http://www.position-relative.net"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/posabsolute/jQuery-Error-Handler-Plugin/issues",
+    "homepage": "https://github.com/posabsolute/jQuery-Error-Handler-Plugin",
+    "dependencies": {
+        "jquery": ">=1.4"
+    }
+}
